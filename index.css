@@ -1,0 +1,37 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #24292E;
+}
+h1 {
+	color: #fff;
+	text-align: center;
+	font: 40px "微软雅黑";
+}
+ul {
+	margin: 0 auto;
+	width: 400px;
+}
+.project_url {
+	line-height: 36px;
+	font-size: 24px;
+	font-family: “微软雅黑”;
+	color: #fff;
+	font-style: normal;
+}
+.project .project_url a {
+	font-size: 30px;
+	color: #fff;
+	font-style: normal;
+}
+
+div.project {
+	width: 400px;
+	margin: 40px auto;
+	height: auto;
+	border: 30px 3px 3px;
+	border-color: #fff;
+}
