@@ -10,6 +10,7 @@ h1 {
 	color: #fff;
 	text-align: center;
 	font: 40px "微软雅黑";
+	margin-top: 150px;
 }
 ul {
 	margin: 0 auto;
@@ -21,6 +22,7 @@ ul {
 	font-family: “微软雅黑”;
 	color: #fff;
 	font-style: normal;
+	padding-top: 30px;
 }
 .project .project_url a {
 	font-size: 30px;
@@ -30,7 +32,7 @@ ul {
 
 div.project {
 	width: 400px;
-	margin: 40px auto;
+	margin: 150px auto;
 	height: auto;
 	border: 30px 3px 3px;
 	border-color: #fff;
