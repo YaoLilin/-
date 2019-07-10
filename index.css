@@ -9,31 +9,58 @@ body {
 h1 {
 	color: #fff;
 	text-align: center;
-	font: 40px "微软雅黑";
-	margin-top: 150px;
+	font-size: 36px;
+	font-family: "微软雅黑";
+	margin-top: 80px;
+	font-weight: normal;
 }
-ul {
-	margin: 0 auto;
-	width: 400px;
-}
-.project_url {
+.project_list {
 	line-height: 36px;
-	font-size: 24px;
-	font-family: “微软雅黑”;
+	list-style: none;
 	color: #fff;
-	font-style: normal;
-	padding-top: 30px;
+	text-decoration: none;
 }
-.project .project_url a {
-	font-size: 30px;
-	color: #fff;
-	font-style: normal;
+.heads .name {
+	float: right;
+	padding-right: 80px;
+	color: #333;
+	font: 20px "微软雅黑";
+	line-height: 80px
 }
 
+.pj_url {
+	text-decoration: none;
+	color: #fff;
+	font: 26px "微软雅黑";
+}
+
+
+
+
 div.project {
-	width: 400px;
-	margin: 150px auto;
+	width: 250px;
+	margin: 50px auto;
 	height: auto;
-	border: 30px 3px 3px;
+	border-width:30px 4px 4px 4px;
 	border-color: #fff;
+	border-style:solid;
+	border-color: white;
+	padding: 20px 0px 200px 60px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.heads {
+	width: max;
+	height: 80px;
+	background-color: #FFFFFF;
+	padding-left: 200px;
+	line-height: 80px;
+}
+.daohang { 
+	padding-right: 80px;
+}
+.daohang .dh_url {
+	text-decoration: none;
+	color: #333;
+	font: 30px "微软雅黑";
 }
