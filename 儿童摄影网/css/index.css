@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 公共类 */
+.center{
+    margin: 0 auto;
+}
+/* 头部 */
+.header{
+    width: 980px;
+    height: 617px;
+    padding-top: 10px;
+    background: url(../images/bg.jpg) no-repeat;
+}
+.header .nav{
+    width: 980px;
+    height: 86px;
+    background: url(../images/nav.jpg) no-repeat center center;
+}
+.header .nav ul{
+    list-style: none;
+    padding: 40px 0 0 160px;
+}
+.header .nav ul li{
+    margin-right: 66px;
+    float: left;
+}
+.header .nav ul .sec{
+    margin-right: 306px;
+}
+.header .nav ul li a{
+    font-family: "微软雅黑";
+    font-size: 16px;
+    color: #685649;
+    text-decoration: none;
+}
+.header .nav ul li a:hover,a:active{
+    text-decoration: underline;
+    color: #d40826;
+}
+/* 最新动态 */
+.news{
+    overflow: hidden;
+    width: 980px;
+    padding-top: 20px;
+	padding-bottom: 50px;
+}
+.news .news_topimg{
+    margin-left: 64px;
+    margin-bottom: 30px;
+}
+.news .news_con{
+    width: 284px;
+    float: left;
+    margin-left: 30px;
+}
+.news .news_con h2{
+    font: 16px "微软雅黑";
+    font-weight: bold;
+    padding-left: 10px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;
+}
+.news .news_con .one{
+    height: 80px;
+    padding: 10px 0 0 10px;
+    font: 12px/20px "微软雅s黑";
+    color: #bbbbbb;
+}
+/*样片欣赏*/
+.yangpian {
+	width: 980px;
+	height: 462px;
+	background: url("../images/xinshang.jpg") no-repeat #FFFFFF;
+}
+
+.yangpian .imgbox .yp_img {
+	margin-top: 170px;
+	height: 237px;
+	margin-left: 56px;
+}
+
+.yangpian .imgbox {
+	width: 916px;
+	height: 260px;
+}
+
+/* 尾部 */
+.footer{
+    height: 80px;
+    background: url(../images/footer_bg.jpg) repeat-x;
+    text-align: center;
+	line-height: 80px;
+    color: white;
+}
+
+.erweima {
+	position: fixed;
+	bottom:5%;
+	right: 5%;
+	
+}
