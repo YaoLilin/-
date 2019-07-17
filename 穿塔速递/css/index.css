@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff9ed;
+    font: 14px "微软雅黑" ;
+}
+.cent{
+    margin: 0 auto;
+}
+/* 导航栏 */
+.header{
+    height: 128px;
+    width: 100%;
+    background: url(../images/head_bg.jpg) repeat-x;
+}
+/* 导航栏内容 */
+.header .center{
+    width: 980px;
+    height: 128px;
+}
+.header .center h1{
+    float: left;
+    position: relative;
+    left: -999px;
+}
+/* 导航栏列表 */
+.header .center ul li{
+    float: left;
+    list-style: none;
+}
+.header .center ul{
+    padding-left: 178px;
+    background:url(../images/logo.png) no-repeat;
+    height: 128px;
+}
+.header .center a{
+    display: block;
+    width: 119px;
+    height: 91px;
+    line-height: 70px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.header .center a:hover,a:active{
+    background: url(../images/xuanfu.png);
+}
+/* 内容 */
+.content{
+width: 980px;
+background: #ec6e47
+}
+/* 内容场景 */
+.content .banner{
+    height: 373px;
+    background: url(../images/banner.jpg) center top no-repeat;
+}
+/* 内容上部分 */
+.content .content_top{
+	padding-top: 10px;
+	padding-right: 36px;
+	padding-left: 36px;
+	padding-bottom: 10px;
+	background: #ec6e47;
+	width: 908px;
+}
+/* 内容内的嵌套div，用户显示白色背景 ，包含图片*/
+.content .content_top .content_bg{
+    width: 902px;
+    height: 100%;
+    background: white;
+    padding: 5px 0 0 8px;
+    overflow: hidden;
+}
+/* 内容每部分的div样式 */
+.conttp_part {
+	padding-left: 4px;
+	overflow: hidden;
+	float: left;
+}
+
+/* 设置列表样式 */
+.content .content_top ul li{
+	margin-bottom: 5px;
+    list-style: none;
+}
+/* 设置图片的div浮动 */
+.content .content_top .content_img{
+    float: left;
+}
+
+/* 所有的链接a的样式，把a转为块区域，并浮动 */
+.content .content_top .conttp_part a{ 
+    float: left;
+    display: block;
+    width: 117px;
+    color: #fff;
+    background: #242424;
+    text-align: center;
+    text-decoration: none;
+	margin-bottom: 8px;
+}
+/* 为每个a设置特殊样式*/
+.content .content_top .conttp_part .lefts_tp_a{
+	line-height: 169px;
+	height: 169px;
+}
+.content .content_top .conttp_part .lefts_bn_a {
+	height:137px;
+	line-height: 137px;
+}
+.content .content_top .conttp_part .centers_tp_a{
+	height: 117px;
+	line-height: 117px;
+}
+.content .content_top .conttp_part .centers_bn_a{
+	height: 188px;
+	line-height: 188px;
+}
+.content .content_top .right_a{
+	height:314px;
+    line-height: 314px;
+}
+/* 链接鼠标经过 */
+.content .content_top ul li a:hover{
+    background: #ec6e47;
+}
+
+/*  内容下部分*/
+/*整个区域div*/
+.content_bottom {
+	width: 940px;
+	padding: 11px 19px;
+	background: #fff;
+	border: 1px solid #dcd2ba;
+	overflow: hidden;
+	margin-bottom: 66px;
+}
+.content_bottom .imgbox{
+	width: 940px;
+}
+/*标题区域*/
+.contbn_title {
+	width: 980px;
+	height: 45px;
+	margin-top: 80px;
+}
+/*标题*/
+.contbn_title h3{
+	width: 260px;
+	height: 45px;
+	background: #ea6c46;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	line-height: 45px;
+	font-weight: normal;
+	font-size: 20px;
+	
+}
+/*列表样式*/
+.content_bottom ul{
+	float: left;
+	margin-right: 4px;
+	border: 1px solid #dcd2ba;
+}
+/*最右边的列表*/
+.content_bottom ul .contbn_img_right{
+	margin-right: 0px;
+}
+/*图片样式*/
+
+.content_bottom ul li{
+	list-style: none;
+	overflow: hidden;
+}
+/*图片区域*/
+.content_bottom .ul_img{
+	border-bottom: 1px solid #dcd2ba;
+	width: 229px;
+	height: 212px;
+}
+/*列表内的*/
+.content_bottom ul li p{
+	color: #7a7a7a;
+	height: 67px;
+	font-size: 22px;
+	line-height: 67px;
+	text-align: center;
+}
+/*购物按钮*/
+.content_bottom ul .li_goshop{
+	width: 200px;
+	margin: 0 auto;
+	padding-bottom: 13px;
+}
+.content_bottom ul li .shopimg{
+	float: left;
+}
+.content_bottom ul li .quickshop{
+	background: #f3734e;
+	float: left;
+	width: 96px;
+	line-height: 38px;
+	color: #fff;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	padding-right:44px;
+	padding-left: 14px;
+}
+
+/*尾部*/
+.footer{
+	height: 97px;
+	width: 100%;
+	background-color: #000;
+	padding-top: 55px;
+}
+.footer p{
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+}
+
