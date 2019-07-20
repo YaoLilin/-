@@ -1,0 +1,438 @@
+*{
+	margin: 0;
+	color: #FFFFFF;
+	font-size: 40px;
+}
+body{
+	font: 18px "黑体";
+	background: rgb(236, 236, 236);
+}
+.center{
+	margin: 0 auto;
+}
+.tops{
+	position: relative;
+	width: 100%;
+/*	margin-top: 50px;*/
+	background: url("../images/baner.jpg") no-repeat;
+	background-size: 100% 100%;
+	background-position: 0 -100px;
+	
+}
+.tops ul{
+	position: absolute;
+	top: 0;
+	left: 15%;
+	padding-top: 10px;
+	width: 1300px;
+	height: 60px;
+}
+.tops ul .logo{
+	padding-left: 100px;
+	line-height: 60px;
+	font-size: 30px;
+	font-family: "微软雅黑";
+	color: #333;
+	font-weight: bold;
+}
+.tops ul li{
+	float:left;
+	padding-left: 100px;
+	list-style: none;
+	
+}
+.tops ul li a{
+	display: block;
+	width: 100%;
+	height: 60px;
+	text-decoration: none;
+	line-height: 60px;
+	font-size: 28px;
+	font-family: "黑体";
+	color: #333;
+	font-weight: bold;
+}
+.tops .title{
+	position: absolute;
+	top: 35%;
+	left: 10%;
+	color: rgb(40, 40, 40);
+	font-family: "黑体";
+	font-size: 140px;
+	font-weight: bold;
+}
+.tops .imgbox{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.tops .imgbox img{
+	width: 100%;
+}
+/*	内容*/
+/*	最新推出*/
+/*	最新推出标题*/
+.new_tile{
+	/* background: #8C8C8C; */
+	width: 60%;
+	height: 80px;
+	margin-left:10%;
+	margin-top: 70px;
+	font: 60px/80px "黑体";
+	color: rgb(218, 52, 40);
+}
+.new_content{
+	position: relative;
+	margin-top: 70px;
+	width: 100%;
+}
+.new_content .ganme_img{
+height: 100%;
+width: 100%;
+}
+.new_content .ganme_img img{
+	height: 100%;
+	width: 100%;
+}
+.new_content .text{
+	position: absolute;
+	float: left;
+	bottom: 0;
+	background: rgba(215, 215, 215,0.2);
+	height: 200px;
+	width: 100%;
+}
+.new_content .text p{
+	padding-left: 100px;
+}
+.new_content .text .name{
+	font: 80px "黑体";
+	color: rgb(223, 152, 0);
+	
+}
+.new_content .text .info{
+	color: aliceblue;
+	font: 30px "黑体";
+	padding-top: 20px;
+}
+.new_content .go{
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+}
+.new_content .go p{
+	color: rgb(223, 152, 0);
+	font: 30px "黑体";
+	border: 4px rgb(223, 152, 0) solid;
+	padding: 10px;
+	cursor: pointer;
+}
+/* 游戏列表 */
+.game{
+	margin-top: 100px;
+	margin-left: 10%;
+	overflow: hidden;
+}
+.game .game_img{
+	float: left;
+}
+.game .game_img img{
+	height: 400px;
+}
+/* 文字区域 */
+.game .game_text{
+	padding: 40px;
+	float: left;
+	background:rgb(155, 155, 155);
+	width: 420px;
+	height: 320px;
+}
+.game .game_text .title{
+	font: 60px "黑体";
+	color: #fff;
+}
+.game .game_text .text{
+	padding-top: 50px;
+	font: 25px "黑体";
+	color: aliceblue;
+}
+/* 第二个 */
+.game2{
+	margin-top: 100px;
+	margin-left: 25%;
+	overflow: hidden;
+}
+.game2 .game2_img{
+	float: left;
+}
+.game2 .game2_img img{
+	height: 400px;
+}
+/* 文字区域 */
+
+.game2 .game2_text .title{
+	font: 60px "黑体";
+	color: #fff;
+}
+.game2 .game2_text .text{
+	padding-top: 50px;
+	font: 25px "黑体";
+	color: aliceblue;
+}
+.game2 .game2_text{
+	padding: 40px;
+	float: left;
+	background:rgb(231, 158, 47);
+	width: 420px;
+	height: 320px;
+}
+/* 第三个 */
+.game3{
+	margin-top: 100px;
+	margin-left: 15%;
+	overflow: hidden;
+}
+.game3 .game3_img{
+	float: left;
+}
+.game3 .game3_img img{
+	height: 400px;
+}
+/* 文字区域 */
+
+.game3 .game3_text .title{
+	font: 60px "黑体";
+	color: #fff;
+}
+.game3 .game3_text .text{
+	padding-top: 50px;
+	font: 25px "黑体";
+	color: aliceblue;
+}
+.game3 .game3_text{
+	padding: 40px;
+	float: left;
+	background:rgb(113, 0, 141);
+	width: 420px;
+	height: 320px;
+}
+/* 更多游戏 */
+.moregame{
+	position: relative;
+	width: 100%;
+	margin-top: 100px;
+}
+.moregame img{
+	width: 100%;
+}
+/*链接*/
+.moregame a{
+	position: absolute;
+	border: 5px #fff solid;
+	padding: 20px;
+	font: 60px "黑体";
+	color: #fff;
+	top: 50%;
+	right: 45%;
+	z-index: 5;
+	text-decoration: none;
+}
+
+/*游戏引擎*/
+.enginebox{
+	margin-top: 100px;
+	background: #222222;
+	width: 100%;
+}
+/*标题栏*/
+.enginebox .eg_top {
+	width: 100%;
+	position: relative;
+}
+.enginebox .eg_top img{
+	width: 100%;
+}
+.enginebox .eg_top .textbox{
+	position: absolute;
+	top: 30%;	
+	left: 35%;
+}
+.enginebox .eg_top .textbox .engname{
+	font:100px "黑体";
+	color: #fff;
+}
+.enginebox .eg_top .textbox .text{
+	border-top :5px #fff solid;
+	font: 40px "黑体";
+	color: #fff;
+	padding-top: 20px;
+}
+/*引擎介绍*/
+/*大幅画面*/
+.eg_introduce{
+	width: 100%;
+	position: relative;
+	margin-top: 100px;
+}
+
+.eg_introduce img{
+	width: 100%;
+}
+.eg_introduce .textbox{
+	background: rgba(0,0,0,0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: 40px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 40px;
+}
+.eg_introduce .textbox .title{
+	font:60px "黑体";
+	color: #fff;
+}
+.eg_introduce .textbox .text{
+	font: 30px "黑体";
+	color: #fff;
+	padding-top: 30px;
+}
+/*引擎开发界面*/
+.wrap{
+	overflow: hidden;
+}
+.eg_introduce2{
+	width: auto;
+	margin-top: 100px;
+	margin-left: 80px;
+	height: auto;
+}
+
+.eg_introduce2 .imgbox{
+	float: left;
+	width: 50%;
+}
+.eg_introduce2 .imgbox img{
+	width: 100%;
+}
+/*文字描述*/
+.eg_introduce2 .textbox{
+/*	background: #00C000;*/
+	float: left;
+	width: 600px;
+	padding-top: 50px;
+	padding-left: 100px;
+	padding-bottom: 50px;
+}
+.eg_introduce2 .textbox .title{
+	color: #fff;
+	font:50px "黑体"
+}
+.eg_introduce2 .textbox .text{
+	padding-top: 40px;
+	font:30px "黑体";
+}
+.eg_introduce2 .textbox a{
+	font:30px "黑体";
+	text-decoration: none;
+	display: block;
+	color: #008AC4;
+	padding-top: 50px;
+	
+}
+
+.getenginfo {
+	margin-top: 100px;
+	width: 100%;
+	background: rgba(42,44,47,1.00);
+}
+.getenginfo p{
+	margin-left: 38%;
+	padding-top: 50px;
+}
+.getenginfo a{
+	font: 30px "黑体";
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 50px;
+	margin-left: 42%;
+	display: block;
+	margin-top: 40px;
+	width: auto;
+	cursor: pointer;
+}
+
+.aboutwe {
+	margin-top: 100px;
+}
+.aboutwe .title{
+	font: 50px "黑体";
+	color: rgba(50,50,50,1.00);
+	width: 38%;
+	margin:0 auto;
+	padding-top: 30px;
+}
+.aboutwe .text{
+	font: 30px "黑体";
+	color: rgba(88,88,88,1.00);
+	width: 60%;
+	padding: 60px 0px 0;
+	text-indent: 2em;
+	margin: 0 auto;
+}
+
+/*底部*/
+.footer {
+	margin-top: 100px;
+	width:100%;
+	padding-top: 40px;
+	overflow: hidden;
+	position: relative;
+	background: 
+	rgba(180,180,180,1.00);
+	padding-bottom: 80px;
+}
+/*logo列表*/
+.footer .left {
+	overflow: hidden;
+}
+.footer .left ul{
+	margin-left: 50px;
+	margin-top: 40px;
+}
+.footer .left ul li{
+	list-style: none;
+	float: left;
+	margin-left: 40px;
+}
+.footer .left ul li img{
+	width: 90px;
+}
+.footer .left p{
+	font: 25px "黑体";
+	color: #333;
+	margin-left: 300px;
+	width: 100px;
+}
+.footer .right {
+	float: left;
+	position: absolute;
+	top: 40%;
+	left: 45%
+}
+.footer .right ul {
+	padding-left: 100px;
+	padding-bottom: 100px;
+}
+.footer .right ul li{
+	list-style: none;
+	float: left;
+	margin-left: 50px;
+	
+}
+.footer .right ul li a{
+	font: 36px "黑体";
+	color: #333;
+	text-decoration: none;
+}
